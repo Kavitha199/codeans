@@ -1,0 +1,16 @@
+#include <stdio.h>
+int func();
+int b=10;
+int main()
+{
+    
+    int a=20;
+    printf("local variable =%d\n", a);
+    func();
+}
+int func()
+{
+    printf("global variable =%d", b);
+
+    return 0;
+}
